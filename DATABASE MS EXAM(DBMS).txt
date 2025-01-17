@@ -24,9 +24,6 @@ PART-A
 
 Q1.
 
-mysql> insert into client_master value(200,'Mugabe John','kigali A12x','Nyabugogo','Rwanda','12 january 2025')
-    -> insert into client_master value(200,'Mugabe John','kigali A12x','Nyabugogo','Rwanda','12 january 2025');
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'insert into client_master value(200,'Mugabe John','kigali A12x','Nyabugogo','Rwa' at line 2
 mysql> insert into client_master value('200','Mugabe John','kigali A12x','Nyabugogo','Rwanda','12 january 2025');
 Query OK, 1 row affected (0.01 sec)
 
